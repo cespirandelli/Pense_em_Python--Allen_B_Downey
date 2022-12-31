@@ -25,4 +25,4 @@ passo_medio = milhas / segundos
 print(f'{passo_medio:.5f} milhas por segundo')
 
 velocidade_media = passo_medio * 60
-print(f'{velocidade_media:.5f} milhas por hora')
+print(f'Velocidade média de {velocidade_media:.5f} milhas por hora')
