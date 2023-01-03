@@ -3,6 +3,6 @@
 # na coluna 70 da tela:
 
 def right_justify(monty):
-    print("                                                                       ", monty)
+    print(70 * ' ', monty)
 
-right_justify('César')
+right_justify('Hello!')
