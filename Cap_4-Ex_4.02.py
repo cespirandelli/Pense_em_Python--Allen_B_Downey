@@ -6,16 +6,16 @@ import turtle
 
 bob= turtle.Turtle()
 def desenhar_quadrado():
-    for i in range(4):
+    for esquerdas in range(4):
         bob.fd(200)
         bob.lt(90)
-desenhar_quadrado()
 
 def square(t):
-    for curvas in range(4):
+    for direitas in range(4):
         t.fd(200)
         t.rt(90)
 
+desenhar_quadrado()
 square(bob)
 
 print(bob)
