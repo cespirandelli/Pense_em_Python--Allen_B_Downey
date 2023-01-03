@@ -30,7 +30,6 @@ def print_grid():
     while cont >= 0:
         if cont == 0:
             desenha_aresta(3)
-            False
             break
         else:
             desenha_aresta(3)
